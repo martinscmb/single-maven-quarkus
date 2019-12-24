@@ -11,10 +11,10 @@ import java.util.List;
 @ApplicationScoped
 public class ExampleRepository implements PanacheRepository<ExampleEntity> {
 
-    /*@Override
+    @Override
     public List<ExampleEntity> listAll() {
           List<ExampleEntity> a = ExampleEntity.<ExampleEntity> findAll().list();
           return a;
-    }*/
+    }
 
 }
