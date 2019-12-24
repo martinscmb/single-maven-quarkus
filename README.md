@@ -2,7 +2,7 @@
 Project to reproduce found issues eliminating the unnecessary complexity.
 
 ### Describe the issue:
-No issues.
+Overriding a method from PanacheRepository interface, will lead to a duplicate method on @QuarkusTest. Running the project (webservices) is ok though.
 
 
 ### To reproduce the issue
